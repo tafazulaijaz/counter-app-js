@@ -1,0 +1,81 @@
+*{
+    font-family:impact;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(228, 204, 172);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  text-align: center;
+  top: 50%;
+    
+
+    
+}
+
+#countRec {
+    font-size: 100px;
+   
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+#incBtn {
+    padding: 8px 50px;
+    font-size: 30px;
+     background-color: rgb(115, 255, 0);
+     color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 10px;
+}
+
+#incBtn:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.2);
+}
+
+#incBtn:active{
+   opacity: 0.8;
+    border: none;
+}
+#decBtn {
+    padding: 8px 50px;
+    font-size: 30px;
+      background-color: rgb(86, 145, 31);
+     color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 10px;
+}
+#decBtn:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.4);
+}
+
+#incBtn:active{
+   opacity: 0.8;
+    border: none;
+}
+#resetBtn {
+    padding: 8px 50px;
+    font-size: 30px;
+    background-color: rgb(144, 179, 20);
+     color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 10px;
+}
+
+#resetBtn:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.2);
+}
+
+#incBtn:active{
+   opacity: 0.8;
+    border: none;
+}
